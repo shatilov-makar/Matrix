@@ -15,4 +15,4 @@ private:
 	const unsigned int m_size;
 };
 
-std::ostream& operator << (std::ostream& stream, const MatrixBase& iMatrix);
+std::ostream& operator<<(std::ostream& stream, const MatrixBase& iMatrix);

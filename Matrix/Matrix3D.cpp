@@ -2,10 +2,10 @@
 
 int Matrix3D::element(unsigned int i, unsigned int j) const
 {
-	return matrixElements[matrixSize * i + j];
+	return matrixElements[size() * i + j];
 }
 
 int& Matrix3D::element(unsigned int i, unsigned int j)
 {
-	return matrixElements[matrixSize * i + j];
+	return matrixElements[size() * i + j];
 }
