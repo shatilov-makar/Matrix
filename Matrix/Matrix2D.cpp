@@ -5,12 +5,11 @@ Matrix2D::Matrix2D() : MatrixBase(matrixSize) {};
 
 int Matrix2D::element(unsigned int i, unsigned int j) const
 {
-	return matrixElements[size() * i + j];
-	int arr[20];
+	return matrixElements[i][j];
 }
 
 int& Matrix2D::element(unsigned int i, unsigned int j)
 {
-	return matrixElements[size() * i + j];
+	return matrixElements[i][j];
 }
 
