@@ -22,7 +22,7 @@ void MatrixBase::operator+=(MatrixBase& iAdd)
 			element(i, j) += iAdd.element(i, j);
 }
 
-MatrixBase::MatrixBase(unsigned int iSize) : m_size(iSize) {};
+MatrixBase::MatrixBase(unsigned int iSize) : m_size(iSize) {}
 
 std::ostream& operator<<(std::ostream& stream, const MatrixBase& iMatrix)
 {
