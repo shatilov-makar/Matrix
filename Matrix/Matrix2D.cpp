@@ -12,4 +12,3 @@ int& Matrix2D::element(unsigned int i, unsigned int j)
 {
 	return matrixElements[i][j];
 }
-

@@ -32,11 +32,10 @@ std::ostream& operator<<(std::ostream& stream, const MatrixBase& iMatrix)
 		{
 			if (iMatrix.element(i, j) < 10)
 				std::cout << iMatrix.element(i, j) << "  ";
-			else 
+			else
 				std::cout << iMatrix.element(i, j) << " ";
 		}
 		std::cout << std::endl;
 	}
 	return stream;
 }
-

@@ -10,4 +10,3 @@ private:
     const static unsigned int matrixSize = 2;
     int matrixElements[matrixSize][matrixSize]{};
 };
-
